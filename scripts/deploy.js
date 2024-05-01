@@ -35,7 +35,7 @@ async function main() {
   )
   await escrow.deployed()
 
-  console.log(`Deployed Escrow contract at: ${escrow.address}`)
+  console.log(`Deployed Escrow contract at: ${escrow.address} - inspector: ${inspector.address}`)
 
   // Approve properties
   for (let i = 0; i < 3; i++){
